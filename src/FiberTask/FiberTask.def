@@ -1,0 +1,15 @@
+LIBRARY	"FiberTask"
+	
+EXPORTS
+	FT_Initialize
+	FT_Uninitialize
+	FT_WaitNoTask
+	FT_WaitNoTaskEx
+	FT_NewTask
+	FT_NewTaskEx
+	FT_Pause
+	FT_StartTask
+	FT_StopTask
+	FT_KillAllTasks
+	FT_KillTask
+	FT_TaskName
