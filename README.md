@@ -1,5 +1,5 @@
-FiberTask is a user land scheduler for managing hundreds of tasks using Windows's fiber threads.
-Scheduling is cooperative and not preemptive.
+FiberTask is a user land scheduler based on fibers (cooperative scheduling).
+It is designed to handle hundreds of cooperatives tasks without standard threads overhead.
 
 FiberTask is a C++ library with C-bindings.
 
